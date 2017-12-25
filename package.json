@@ -1,0 +1,32 @@
+{
+  "name": "taxi-server",
+  "version": "0.8.1",
+  "description": "Server app that connects driver,rider and operator to mysql and redis database",
+  "repository": "http://codecanyon.net",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "@types/redis": "^2.8.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "geolib": "^2.0.24",
+    "imagemin": "^5.3.1",
+    "imagemin-webp": "^4.0.0",
+    "jsonwebtoken": "^7.4.3",
+    "moment": "^2.19.1",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "redis": "^2.8.0",
+    "redis-server": "^1.1.0",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4",
+    "socketio-jwt": "^4.5.0",
+    "stripe": "^4.25.0"
+  },
+  "engines": {
+    "node": "^7.8.0"
+  }
+}
